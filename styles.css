@@ -6,7 +6,8 @@ body {
     justify-content: space-between;
 }
 
-header {
+header, 
+footer {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -112,6 +113,7 @@ button {
 .quote {
     font-size: 36px;
     font-style: italic;
+    margin-bottom: 20px;
 }
 
 .thor {
@@ -124,14 +126,28 @@ button {
     color: #F9FAF8;
     display: flex;
     justify-content: center;
-    margin: 20px 200px;
-    padding: 36px 54px;
+    align-items: center;
+    gap: 100px;
+    border-radius: 10px;
+    margin: 120px 200px;
+    padding: 36px;
 }
 
 .call-section {
-
+    justify-content: flex-start;
+    margin-left: 36px;
 }
 
 .second-button {
     border: 1px solid #F9FAF8;
+    margin-right: 36px;
+    flex-shrink: 0;
+    height: fit-content;
+}
+
+/* END MAIN SECTION */
+
+footer {
+    text-align: center;
+    padding: 36px;
 }
