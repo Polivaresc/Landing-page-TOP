@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.first-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0;
+    gap: 20px;
+}
+
+.web-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.secondary-text {
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.second-line {
+    display: flex;
+    padding: 120px 200px;
+    justify-content: center;
+    gap: 80px;
+}
+
+.description,
+.image-div {
+    flex: 1;
+}
+
+.header-image {
+    width: 100%;
+    min-width: 400px;
+}
+
+/* START MAIN SECTION */
+
+.main-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin: 36px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-bottom: 120px; 
+}
+
+.card {
+    flex: 1;
+    max-width: 200px;
+}
+
+.blue-square {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+}
+
+.card-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 120px 240px;
+    margin-bottom: 120px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.thor {
+    font-weight: bold;
+    text-align: right;
+}
+
+.big-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    margin: 20px 200px;
+    padding: 36px 54px;
+}
+
+.call-section {
+
+}
+
+.second-button {
+    border: 1px solid #F9FAF8;
+}
